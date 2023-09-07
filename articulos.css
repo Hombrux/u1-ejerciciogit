@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2rem 3rem;
+}
+
+main{
+    padding: 4rem 8rem 2rem 8rem ;
+}
+
+form{
+    width: 300px;
+    margin: 3rem auto;
+    padding: 20px;
+    background-color: #8f8a8a;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label{
+    font-weight: bold;
+    color: #4232ce;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    background-color: #227938;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover{
+    background-color: #4dd133;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 5% auto;
+    margin-top: 3rem;
+}
+
+th {
+    background-color: #19a5e6;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    font-size: large;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: large;
+}
+
+ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+a{
+    color: #19a5e6;
+    font-weight: bold;
+}
+
+.borrar{
+    display: inline-block;
+    padding: 5px 6px;
+    font-size: 16px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+.editar{
+    display: inline-block;
+    padding: 5px 6px;
+    font-size: 16px;
+    background-color: #0000ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+.borrar:hover{
+    background-color: #c20e0e;
+}
+
+.editar:hover{
+    background-color: #7a61b3;
+}
